@@ -9,7 +9,7 @@ This report presents a basic autonomous driving simulation implemented using Pyt
 rules.
 • Traffic Light Control: Implementing a basic traffic light cycle to control the flow of traffic.
 • While this simulation provides a foundational understanding of autonomous driving concepts, it lacks advanced features like realtime sensor data processing, path planning, and collision avoidance.
-Our approach provides a lightweight yet extensible plaWorm for testing autonomous vehicle behaviors in controlled urban environments. The results indicate that rule-based traffic management systems can effec<vely coordinate multiple vehicles through complex intersections while maintaining traffic flow and safety parameters.
+Our approach provides a lightweight yet extensible plaWorm for testing autonomous vehicle behaviors in controlled urban environments. The results indicate that rule-based traffic management systems can effectively coordinate multiple vehicles through complex intersections while maintaining traffic flow and safety parameters.
 
 Introduction
 
