@@ -3,16 +3,17 @@ Autonomous Driving Simulation: Simulate an autonomous vehicle learning to naviga
 
 Abstract
 
-This report presents a basic autonomous driving simula<on implemented using Python's Pygame library. The simulation focuses on a four-way intersection with traffic lights, cars, and simple traffic rules. The core functionalities include:
+This report presents a basic autonomous driving simulation implemented using Python's Pygame library. The simulation focuses on a four-way intersection with traffic lights, cars, and simple traffic rules. The core functionalities include:
 • Environment Creation: Defining the road layout, sidewalks, dividers, and traffic lights.
 • Car Dynamics: Spawning, moving, and removing cars based on traffic light signals and lane
 rules.
 • Traffic Light Control: Implementing a basic traffic light cycle to control the flow of traffic.
 • While this simulation provides a foundational understanding of autonomous driving concepts, it lacks advanced features like realtime sensor data processing, path planning, and collision avoidance.
-Our approach provides a lightweight yet extensible plaWorm for testing autonomous vehicle behaviors in controlled urban environments. The results indicate that rule-based traffic management systems can effec<vely coordinate multiple vehicles through complex intersec<ons while maintaining traffic flow and safety parameters.
+Our approach provides a lightweight yet extensible plaWorm for testing autonomous vehicle behaviors in controlled urban environments. The results indicate that rule-based traffic management systems can effec<vely coordinate multiple vehicles through complex intersections while maintaining traffic flow and safety parameters.
 
 Introduction
-Urban traffic management systems are becoming increasingly complex with the introduc<on of autonomous vehicles (AVs) into existing infrastructure. Simulation environments play a crucial role in tes<ng and valida<ng autonomous vehicle behaviors before real-world deployment (Wei et al., 2019) [1]. While high-fidelity 3D simulators like CARLA (Dosovitskiy et al., 2017)[2] offer detailed physics- based simulations, simplified 2D environments can provide rapid prototyping capabilities for testing basic traffic management algorithms and vehicle coordination strategies.
+
+Urban traffic management systems are becoming increasingly complex with the introduc<on of autonomous vehicles (AVs) into existing infrastructure. Simulation environments play a crucial role in testing and validating autonomous vehicle behaviors before real-world deployment (Wei et al., 2019) [1]. While high-fidelity 3D simulators like CARLA (Dosovitskiy et al., 2017)[2] offer detailed physics- based simulations, simplified 2D environments can provide rapid prototyping capabilities for testing basic traffic management algorithms and vehicle coordination strategies.
 This study focuses on developing a lightweight simulation framework that captures essential aspects of autonomous vehicle behavior at traffic intersec<ons, including:
 - Traffic light synchronization
 - Vehicle spawning and path planning -
@@ -47,6 +48,7 @@ Employs a stochastic spawning system with:
 - Initial velocity assignment
  
  Literature Review
+ 
 1.Scope
 This review focuses on 2D traffic simulation environments and their applications in autonomous vehicle testing. We examine existing frameworks, methodologies, and evaluation metrics used in similar studies.
 2. Related Work
@@ -69,6 +71,7 @@ AirSim: A simulator for drones, cars, and more, providing realistic physics and 
 • Frame rate
  
   Results
+  
 While the presented simulation is a basic implementation, it demonstrates the core concepts of autonomous driving simulation. It can be used as a starting point for more complex simulations with advanced features like machine learning and reinforcement learning.
 The simulation demonstrates successful implementation of:
 • Stable traffic flow management
@@ -79,6 +82,7 @@ Performance metrics show:
 • Efficient traffic light cycling
 
 Conclusion
+
 This study presents a functional framework for simulating autonomous vehicle behavior at traffic intersections. While simplified compared to high-fidelity 3D simulators, the system successfully demonstrates fundamental traffic management concepts and provides a plaform for testing basic autonomous vehicle algorithms.
 Autonomous driving simulation is a valuable tool for research and development in the field of autonomous vehicles. By providing a safe and controlled environment, simulations enable the testing and refinement of algorithms without the risks associated with real-world testing. Future research directions include improving simulation realism, integrating more advanced AI techniques, and developing more complex traffic scenarios.
 Future work could include:
@@ -88,6 +92,7 @@ Future work could include:
 • Vehicle-to-vehicle communication
  
 References
+
 [1] Wei, J., Snider, J. M., Kim, J., Dolan, J. M., Rajkumar, R., & Litkouhi, B. (2019). Towards a viable autonomous driving research platform. In IEEE Intelligent Vehicles Symposium.
 [2] Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An open urban driving simulator. In Conference on Robot Learning.
 [3] Shah, S., Dey, D., Lovett, C., & Kapoor, A. (2018). AirSim: High-fidelity visual and physical simulation for autonomous vehicles.
