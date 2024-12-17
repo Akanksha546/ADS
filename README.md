@@ -2,6 +2,7 @@
 Autonomous Driving Simulation: Simulate an autonomous vehicle learning to navigate a virtual environment while obeying traffic rules.
 
 Abstract
+
 This report presents a basic autonomous driving simula<on implemented using Python's Pygame library. The simulation focuses on a four-way intersection with traffic lights, cars, and simple traffic rules. The core functionalities include:
 • Environment Creation: Defining the road layout, sidewalks, dividers, and traffic lights.
 • Car Dynamics: Spawning, moving, and removing cars based on traffic light signals and lane
